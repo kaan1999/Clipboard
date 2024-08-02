@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+}
+.main{
+    margin-top: 100px;
+    border: 1px solid rgb(207, 167, 118);
+    padding: 50px 50px;
+    background-color: aliceblue;
+}
+.inp-ctext{
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    line-height: 30px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.btn-cp{
+    font-size: 14px;
+    padding: 8px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#btn-cpy{
+    background-color: darkred;
+    color: white;
+}
+#btn-paste{
+    background-color: darkblue;
+    color: white;
+}
+#header{
+    margin-top: 50px;
+}

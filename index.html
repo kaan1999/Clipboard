@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="header">Clipboard</h1>
+    <div class="main">
+        <h2 id="ctext">Pano Burada Görünecek</h2>
+        <input id="input-ctext" class="inp-ctext" type="text" placeholder="Kopyalanacak Metin">
+
+        <div class="div-buttons">
+            <button onclick="cb_copy()" id="btn-cpy" class="btn-cp">Kopyala</button>
+            <button onclick="cb_paste()" id="btn-paste" class="btn-cp">Yapıştır</button>
+            <button onclick="cb_clear()"id="btn-clear" class="btn-cp">Temizle</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
